@@ -36,6 +36,6 @@ Upon input the city name is saved in the user's local storage and used to popula
 
 ## License
 
-[Repo License](/LICENSE)
+[Repo License](/LICENSE.txt)
 
 [Apache 2.0 Detailed Documentation](https://www.apache.org/licenses/LICENSE-2.0)
