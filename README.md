@@ -22,17 +22,19 @@ Upon input the city name is saved in the user's local storage and used to popula
 
 ## Mock-Up
 
-![desktop-screenshot](../images/WeatherDashboard_screenshot.png)
+![WeatherDashboard_screenshot](https://user-images.githubusercontent.com/97176042/152900217-d8d09693-d1ef-40d8-8d70-8874b2fe8510.png)
 
 [Demo Quicktime Video](../images/Weather_Dashboard_demo.mov)
 
+
 ## Application Links
+
 [Live Staging Link](https://jacih.github.io/Weather-Dashboard/)
 
 [GitHub Repository](https://github.com/jacih/Weather-Dashboard.git)
 
 
-##License
+## License
 
 [Repo License](/LICENSE)
 
