@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather-Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@200;300;400;500;700;800&display=swap" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" rel="stylesheet"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+    crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <header>Weather Dashboard</header>
+    <main class="container-fluid align-content-space-between" id="content">
+        <div class="row">
+          <div class="col-lg-3 search-bar">
+            <p>Search for a City</p>
+            <form>
+              <input class="form-text w-100" type="text" id="search-input" placeholder="New York">
+              <button class="btn btn-info btn-block" type="button" id="searchBtn"><i class="fa fa-search"></i> Search</button>
+            </form>
+            <hr>
+            <ul id="results-list">
+            </ul>
+          </div>
+          <div class="col-lg-8 pb-4 pt-4" id="search-results">
+            <article class= "col pb-3 mr-2 ml-2" id="shortterm-results">
+              <div class="d-flex row">
+                <p id="city"></p>
+                <p id="date"></p>
+              </div>
+                <img id="weather-icon"></img>
+                <div class= "row">
+                  <p class="weather-details" id="temp"></p>
+                  <p class="weather-details" id="wind"></p>
+                  <p class="weather-details" id="humidity"></p>
+                  <p class="weather-details" id="uvi"></p>
+                </div>
+            </article>
+
+            <article id="longterm-results">
+              <h2>5-Day Forecast</h2>
+              <section class="row forecast m-2 rounded" id="5-day-cards">
+              </section>
+            </article>
+          </div>
+        </div>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" 
+    crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script src= "./assets/js/script.js"></script>
+</body>
+</html>
